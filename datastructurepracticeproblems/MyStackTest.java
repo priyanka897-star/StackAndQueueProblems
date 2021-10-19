@@ -16,7 +16,6 @@ public class MyStackTest {
 		INode myNode =  myStack.peak();
 		myStack.printStack();
 		boolean result = myStack.peak().equals(thirdNumberNode);
-	    System.out.println(result);
+	        System.out.println(result);
 		}
-
 }
