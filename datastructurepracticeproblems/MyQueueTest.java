@@ -2,9 +2,9 @@ package datastructurepracticeproblems;
 
 public class MyQueueTest {
 	public static void main(String[] args) {
-		givenNumberWhenAddedToQueueShouldHaveLastAddedNode();
+		givenNumberWhenPOPShouldMatchWithLastAddedNode();
 	}
-	public  static void givenNumberWhenAddedToQueueShouldHaveLastAddedNode() {
+	public  static void givenNumberWhenPOPShouldMatchWithLastAddedNode() {
 		MyQueue<Integer> myQueue = new MyQueue<Integer>();
 		Node<Integer> firstNumberNode = new Node<Integer>(70);
 		Node<Integer> secondNumberNode = new Node<Integer>(30);
