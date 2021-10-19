@@ -12,10 +12,12 @@ public class MyQueueTest {
 		myQueue.enqueue(firstNumberNode);
 		myQueue.enqueue(secondNumberNode);
 		myQueue.enqueue(thirdNumberNode);
-		INode queue =  myQueue.peak();
+		INode pop =  myQueue.dequeue();
 		myQueue.printStack();
-		boolean result = myQueue.peak().equals(thirdNumberNode);
-	    System.out.println(result);
-		}
+	    if( !firstNumberNode.isEmpty());
+	    {
+	   System.out.println(true);
+	  }
+}
 }
 

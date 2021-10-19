@@ -29,4 +29,9 @@ public class Node<K> implements INode<K> {
 	public boolean isExist() {
 		return false;
 	}
+
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }
