@@ -1,6 +1,7 @@
 package datastructurepracticeproblems;
 
 public class Node<K> implements INode<K> {
+	
 	private K key;
 	private Node next;
 

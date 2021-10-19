@@ -21,7 +21,6 @@ public class MyNode<K> {
 			head.setNext(temp);
 		}
 	}
-
 	public INode pop() {
 		INode temp = this.head;
 		this.head = head.getNext();
