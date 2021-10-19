@@ -3,6 +3,7 @@ package datastructurepracticeproblems;
 public class MyStack<K>{
 
 	private final MyNode<K> myNode;
+	
 
 	public MyStack() {
 		myNode = new MyNode<>();

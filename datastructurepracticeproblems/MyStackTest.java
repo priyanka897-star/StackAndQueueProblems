@@ -1,11 +1,11 @@
 package datastructurepracticeproblems;
 
 public class MyStackTest {
-	
+
 	public static void main(String[] args) {
-		givenNumberWhenAddedToStackShouldHaveLastAddedNode();
+		givenNumberWhenPOPShouldMatchWithLastAddedNode();
 	}
-	public  static void givenNumberWhenAddedToStackShouldHaveLastAddedNode() {
+	public static void givenNumberWhenPOPShouldMatchWithLastAddedNode() {
 		MyStack<Integer> myStack = new MyStack<Integer>();
 		Node<Integer> firstNumberNode = new Node<Integer>(70);
 		Node<Integer> secondNumberNode = new Node<Integer>(30);
@@ -13,10 +13,11 @@ public class MyStackTest {
 		myStack.push(firstNumberNode);
 		myStack.push(secondNumberNode);
 		myStack.push(thirdNumberNode);
-		INode myNode =  myStack.peak();
+		INode pop = myStack.pop();
 		myStack.printStack();
-		boolean result = myStack.peak().equals(thirdNumberNode);
-	    System.out.println(result);
-		}
-
+		if( !thirdNumberNode.isExist());
+		{
+		   System.out.println(true);
+		  }
+	}
 }
