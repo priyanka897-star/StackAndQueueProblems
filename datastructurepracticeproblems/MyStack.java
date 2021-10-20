@@ -1,26 +1,26 @@
 package datastructurepracticeproblems;
 
-public class MyStack<K>{
+import linkedlistpracticeproblems.MyLinkedList;
+import linkedlistpracticeproblems.INode;
+import linkedlistpracticeproblems.Node;
 
-	private final MyNode<K> myNode;
-
+public class MyStack{
+	private final MyLinkedList myLinkedList;
+	
 	public MyStack() {
-		myNode = new MyNode<>();
+		myLinkedList = new MyLinkedList();
 	}
 
-	public void push(INode<K> element) {
-		myNode.add(element);
+	public void push(INode element) {
+		myLinkedList.add(element);
 	}
 
 	public INode peak() {
-		return myNode.head;
-	}
-
-	public INode pop() {
-		return myNode.pop();
+		return myLinkedList.head;
 	}
 
 	public void printStack() {
-		myNode.printNodes();
+		myLinkedList.printNodes();
 	}
+    }
 }
