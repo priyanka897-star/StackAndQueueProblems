@@ -1,8 +1,10 @@
 package datastructurepracticeproblems;
 
+import linkedlistpracticeproblems.MyLinkedList;
+import linkedlistpracticeproblems.INode;
+
 public class MyQueue<K> {
-private final MyNode<K> myNode;
-	
+        private final MyNode<K> myNode;
 
 	public MyQueue() {
 		myNode = new MyNode<>();
