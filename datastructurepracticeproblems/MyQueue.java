@@ -16,10 +16,6 @@ private final MyNode<K> myNode;
 		return myNode.head;
 	}
 
-	public INode dequeue() {
-		return myNode.pop();
-	}
-
 	public void printStack() {
 		myNode.printNodes();
 	}
