@@ -9,7 +9,7 @@ public class MyStackTest {
 		givenNumberWhenPOPShouldMatchWithLastAddedNode();
 	}
 	public static void givenNumberWhenPOPShouldMatchWithLastAddedNode() {
-		MyStack<Integer> myStack = new MyStack<Integer>();
+		MyStack  myStack = new MyStack();
 		Node<Integer> firstNumberNode = new Node<Integer>(70);
 		Node<Integer> secondNumberNode = new Node<Integer>(30);
 		Node<Integer> thirdNumberNode = new Node<Integer>(56);
