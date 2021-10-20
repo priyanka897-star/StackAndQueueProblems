@@ -1,5 +1,8 @@
 package datastructurepracticeproblems;
 
+import linkedlistpracticeproblems.INode;
+import linkedlistpracticeproblems.Node;
+
 public class MyStackTest {
 	
 	public static void main(String[] args) {
