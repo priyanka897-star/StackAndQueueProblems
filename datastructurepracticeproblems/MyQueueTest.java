@@ -1,11 +1,14 @@
 package datastructurepracticeproblems;
 
+import linkedlistpracticeproblems.INode;
+import linkedlistpracticeproblems.Node;
+
 public class MyQueueTest {
 	public static void main(String[] args) {
 		givenNumberWhenAddedToQueueShouldHaveLastAddedNode();
 	}
 	public  static void givenNumberWhenAddedToQueueShouldHaveLastAddedNode() {
-		MyQueue<Integer> myQueue = new MyQueue<Integer>();
+		MyQueue myQueue = new MyQueue();
 		Node<Integer> firstNumberNode = new Node<Integer>(70);
 		Node<Integer> secondNumberNode = new Node<Integer>(30);
 		Node<Integer> thirdNumberNode = new Node<Integer>(56);
@@ -15,7 +18,7 @@ public class MyQueueTest {
 		INode queue =  myQueue.peak();
 		myQueue.printStack();
 		boolean result = myQueue.peak().equals(thirdNumberNode);
-	    System.out.println(result);
+	        System.out.println(result);
 		}
 }
 
